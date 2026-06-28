@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Abhishek Singh, Senior Technical Project Manager & PMP-certified leader. Specializing in enterprise cloud transformations, Big Data migrations, and AI integrations.">
+    <title>Abhishek Singh | Senior Technical Project Manager & PMP</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    <!-- Background Blur Decorative Blobs -->
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-text">Abhishek</span><span class="logo-dot">.</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#timeline" class="nav-link">Experience</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn-mobile">Get In Touch</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle light/dark theme">
+                    <!-- Moon Icon (Dark Mode Active) -->
+                    <svg class="icon moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+                    <!-- Sun Icon (Light Mode Active) -->
+                    <svg class="icon sun-icon hidden" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+                </button>
+                <a href="#contact" class="contact-btn">Contact Me</a>
+                
+                <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <!-- HERO SECTION -->
+        <section class="hero" id="home">
+            <div class="hero-container container">
+                <div class="hero-text">
+                    <div class="pmp-badge">
+                        <svg class="badge-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                        <span>PMP® Certified Project Manager</span>
+                    </div>
+                    <h1>
+                        Hi, I'm <span class="highlight-text">Abhishek Singh</span>
+                    </h1>
+                    <h2 class="typing-container">
+                        <span id="typing-text">Senior Technical Project Manager</span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-desc">
+                        A results-driven technology leader with over <strong>12 years of experience</strong>, including 7+ years directing project management for enterprise cloud transformations, Big Data migrations, and advanced AI integrations on Google Cloud Platform. Ex-Data Engineer and Web Developer.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                        <a href="#timeline" class="btn btn-secondary">View Experience</a>
+                    </div>
+                    <div class="hero-meta">
+                        <div class="meta-item">
+                            <svg class="meta-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                            <span>abhishek.ar.singh@gmail.com</span>
+                        </div>
+                        <div class="meta-item">
+                            <svg class="meta-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                            <span>236-866-2738</span>
+                        </div>
+                        <div class="meta-item">
+                            <svg class="meta-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
+                            <span>Toronto, ON</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-image-area">
+                    <div class="avatar-ring ring-1"></div>
+                    <div class="avatar-ring ring-2"></div>
+                    <div class="avatar-container">
+                        <img src="assets/avatar.png" alt="Abhishek Singh Illustration" class="avatar-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS SECTION -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card reveal">
+                        <div class="stat-icon-wrapper purple-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <div class="stat-number">12+</div>
+                        <div class="stat-label">Years Tech Experience</div>
+                    </div>
+                    <div class="stat-card reveal">
+                        <div class="stat-icon-wrapper teal-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                        </div>
+                        <div class="stat-number">7+</div>
+                        <div class="stat-label">Years PM Leadership</div>
+                    </div>
+                    <div class="stat-card reveal">
+                        <div class="stat-icon-wrapper blue-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                        </div>
+                        <div class="stat-number">$20M+</div>
+                        <div class="stat-label">Secured Milestone Funding</div>
+                    </div>
+                    <div class="stat-card reveal">
+                        <div class="stat-icon-wrapper rose-glow">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>
+                        </div>
+                        <div class="stat-number">80%</div>
+                        <div class="stat-label">Retail ROAS Improvement</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="section-title-wrapper reveal">
+                    <span class="section-subtitle">Biography</span>
+                    <h2 class="section-title">Bridging Code and Strategy</h2>
+                    <div class="title-underline"></div>
+                </div>
+                
+                <div class="about-grid">
+                    <div class="about-text-content reveal">
+                        <p class="lead-text">
+                            I am a Senior Technical Project Manager who understands the technology behind the projects. Beginning my career as a Full-Stack Web Developer and progressing through Data Engineering, I combine rigorous software development disciplines with advanced project management methodologies.
+                        </p>
+                        <p>
+                            Throughout my career, I've specialized in driving enterprise cloud transformations, constructing distributed big data pipelines, and implementing bleeding-edge AI workflows within Google Cloud environments. Certified in PMP (Project Management Professional), I actively manage project scope, schedule, and budget constraints while translating strategic objectives into actionable specifications for cross-functional engineering teams.
+                        </p>
+                        <p>
+                            My leadership style is metrics-driven and cooperative: whether configuring complex JIRA workflows to boost velocity, conducting RAID log mitigations, or managing multi-million-dollar budgets, I focus on empowering engineers to deliver robust, scalable technical solutions.
+                        </p>
+                    </div>
+                    
+                    <div class="about-highlights reveal">
+                        <div class="highlight-box">
+                            <div class="highlight-item">
+                                <div class="highlight-icon">✓</div>
+                                <div>
+                                    <h4>Technical Breadth</h4>
+                                    <p>Deep expertise in GCP (BigQuery, AI recommendation engines, RAG), Python, and JavaScript/analytics.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">✓</div>
+                                <div>
+                                    <h4>PMP Project Governance</h4>
+                                    <p>Adept at Scope & Change Control, PMO budget modeling, critical path monitoring, and risk mitigations.</p>
+                                </div>
+                            </div>
+                            <div class="highlight-item">
+                                <div class="highlight-icon">✓</div>
+                                <div>
+                                    <h4>Engineering Leadership</h4>
+                                    <p>Scaled multi-disciplinary engineering pods of 10+ devs, boosting sprint velocities by up to 25%.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section class="skills" id="skills">
+            <div class="container">
+                <div class="section-title-wrapper reveal">
+                    <span class="section-subtitle">Expertise</span>
+                    <h2 class="section-title">Core Skills & Tooling</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <!-- Skills Search & Filters -->
+                <div class="skills-filter-container reveal">
+                    <div class="search-box">
+                        <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                        <input type="text" id="skills-search" placeholder="Search skills (e.g. GCP, Scrum, Python)...">
+                    </div>
+                    <div class="skills-tabs">
+                        <button class="skill-tab active" data-category="all">All</button>
+                        <button class="skill-tab" data-category="pm">Project Management</button>
+                        <button class="skill-tab" data-category="cloud">Cloud & Big Data</button>
+                        <button class="skill-tab" data-category="data">Data Automation</button>
+                        <button class="skill-tab" data-category="product">Product Ownership</button>
+                    </div>
+                </div>
+
+                <div class="skills-grid reveal" id="skills-grid">
+                    <!-- Category: PM -->
+                    <div class="skill-card" data-cat="pm">
+                        <div class="skill-header">
+                            <span class="skill-icon">📊</span>
+                            <h3>PMP Methodology</h3>
+                        </div>
+                        <p>End-to-end framework alignment covering project initiation, planning, execution, and closing processes.</p>
+                        <span class="skill-tag">Management</span>
+                    </div>
+                    <div class="skill-card" data-cat="pm">
+                        <div class="skill-header">
+                            <span class="skill-icon">🔄</span>
+                            <h3>Agile & Scrum Delivery</h3>
+                        </div>
+                        <p>Leading Scrum ceremonies, managing sprints, grooming backlogs, and accelerating pod velocities.</p>
+                        <span class="skill-tag">Management</span>
+                    </div>
+                    <div class="skill-card" data-cat="pm">
+                        <div class="skill-header">
+                            <span class="skill-icon">⚠️</span>
+                            <h3>Risk & RAID Logs</h3>
+                        </div>
+                        <p>Proactive tracking and mitigation of Risks, Assumptions, Issues, and Dependencies to secure project success.</p>
+                        <span class="skill-tag">Management</span>
+                    </div>
+                    <div class="skill-card" data-cat="pm">
+                        <div class="skill-header">
+                            <span class="skill-icon">💰</span>
+                            <h3>Budget Forecasting</h3>
+                        </div>
+                        <p>Developing Work Breakdown Structures (WBS) and maintaining financial variance controls within tight ±10% limits.</p>
+                        <span class="skill-tag">Management</span>
+                    </div>
+
+                    <!-- Category: Cloud & Big Data -->
+                    <div class="skill-card" data-cat="cloud">
+                        <div class="skill-header">
+                            <span class="skill-icon">☁️</span>
+                            <h3>Google Cloud Platform (GCP)</h3>
+                        </div>
+                        <p>Architecting distributed big data infrastructure, managing retail AI recommenders, and cloud security.</p>
+                        <span class="skill-tag">Technology</span>
+                    </div>
+                    <div class="skill-card" data-cat="cloud">
+                        <div class="skill-header">
+                            <span class="skill-icon">🛢️</span>
+                            <h3>BigQuery & Data Lakes</h3>
+                        </div>
+                        <p>Constructing multi-layer analytical pipelines and mapping schema structures for enterprise scale.</p>
+                        <span class="skill-tag">Technology</span>
+                    </div>
+                    <div class="skill-card" data-cat="cloud">
+                        <div class="skill-header">
+                            <span class="skill-icon">🛠️</span>
+                            <h3>Solution Design (SDDs)</h3>
+                        </div>
+                        <p>Translating complex business goals into architectural system blueprints and data integration pathways.</p>
+                        <span class="skill-tag">Architecture</span>
+                    </div>
+                    <div class="skill-card" data-cat="cloud">
+                        <div class="skill-header">
+                            <span class="skill-icon">🔌</span>
+                            <h3>REST APIs & JSON</h3>
+                        </div>
+                        <p>Managing API interfaces, validating data payload schemas, and integrating external microservices.</p>
+                        <span class="skill-tag">Technology</span>
+                    </div>
+
+                    <!-- Category: Data Automation -->
+                    <div class="skill-card" data-cat="data">
+                        <div class="skill-header">
+                            <span class="skill-icon">🐍</span>
+                            <h3>Python Programming</h3>
+                        </div>
+                        <p>Building automated data engineering pipelines, data cleansing models, and task schedulers.</p>
+                        <span class="skill-tag">Development</span>
+                    </div>
+                    <div class="skill-card" data-cat="data">
+                        <div class="skill-header">
+                            <span class="skill-icon">💾</span>
+                            <h3>SQL Engineering</h3>
+                        </div>
+                        <p>Writing complex, high-performance database queries and analytical scripts for relational data systems.</p>
+                        <span class="skill-tag">Development</span>
+                    </div>
+                    <div class="skill-card" data-cat="data">
+                        <div class="skill-header">
+                            <span class="skill-icon">📈</span>
+                            <h3>Google Analytics & GTM</h3>
+                        </div>
+                        <p>Deploying web analytics tag architectures (GTM/Tealium) and debugging custom tracking configurations.</p>
+                        <span class="skill-tag">Analytics</span>
+                    </div>
+                    <div class="skill-card" data-cat="data">
+                        <div class="skill-header">
+                            <span class="skill-icon">⚡</span>
+                            <h3>Continuous Optimization</h3>
+                        </div>
+                        <p>Minimizing manual operations through custom Python automation, boosting productivity by up to 90%.</p>
+                        <span class="skill-tag">Automation</span>
+                    </div>
+
+                    <!-- Category: Product Ownership -->
+                    <div class="skill-card" data-cat="product">
+                        <div class="skill-header">
+                            <span class="skill-icon">🎫</span>
+                            <h3>Jira Workflows</h3>
+                        </div>
+                        <p>Configuring custom workflows, automated triggers, sprint structures, and tracking project metrics.</p>
+                        <span class="skill-tag">Tooling</span>
+                    </div>
+                    <div class="skill-card" data-cat="product">
+                        <div class="skill-header">
+                            <span class="skill-icon">📋</span>
+                            <h3>Backlog Prioritization</h3>
+                        </div>
+                        <p>Facilitating story mapping, technical grooming, and setting precise acceptance criteria with stakeholders.</p>
+                        <span class="skill-tag">Productivity</span>
+                    </div>
+                    <div class="skill-card" data-cat="product">
+                        <div class="skill-header">
+                            <span class="skill-icon">📝</span>
+                            <h3>BRDs & User Stories</h3>
+                        </div>
+                        <p>Translating executive vision into functional business requirements and development-ready items.</p>
+                        <span class="skill-tag">Architecture</span>
+                    </div>
+                    <div class="skill-card" data-cat="product">
+                        <div class="skill-header">
+                            <span class="skill-icon">🤝</span>
+                            <h3>Stakeholder Alignment</h3>
+                        </div>
+                        <p>Negotiating structured Statements of Work (SOWs) and presenting key project milestones to PMOs.</p>
+                        <span class="skill-tag">Leadership</span>
+                    </div>
+                </div>
+                
+                <div class="no-skills-found hidden" id="no-skills-message">
+                    No matching skills found. Try searching for another keyword!
+                </div>
+            </div>
+        </section>
+
+        <!-- TPM PROJECTS SIMULATOR SECTION -->
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="section-title-wrapper reveal">
+                    <span class="section-subtitle">Portfolio Simulator</span>
+                    <h2 class="section-title">Managed Project Architecture</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <p class="simulator-intro reveal">
+                    Explore the interactive simulator below to view the architectural systems and metrics of critical projects governed by Abhishek Singh.
+                </p>
+
+                <div class="simulator-layout reveal">
+                    <!-- Project Navigation Sidebar -->
+                    <div class="simulator-tabs">
+                        <button class="sim-tab active" data-project="project1">
+                            <span class="sim-tab-num">01</span>
+                            <div class="sim-tab-text">
+                                <h4>Contact Center AI Engine</h4>
+                                <span>Gemini & RAG Automations</span>
+                            </div>
+                        </button>
+                        <button class="sim-tab" data-project="project2">
+                            <span class="sim-tab-num">02</span>
+                            <div class="sim-tab-text">
+                                <h4>Retail AI Recommender</h4>
+                                <span>Google Retail AI & Real-time Tuning</span>
+                            </div>
+                        </button>
+                        <button class="sim-tab" data-project="project3">
+                            <span class="sim-tab-num">03</span>
+                            <div class="sim-tab-text">
+                                <h4>Google Meridian MMM</h4>
+                                <span>Marketing Mix Modeling Rollouts</span>
+                            </div>
+                        </button>
+                        <button class="sim-tab" data-project="project4">
+                            <span class="sim-tab-num">04</span>
+                            <div class="sim-tab-text">
+                                <h4>GCP Data Pipelines</h4>
+                                <span>$4M Analytical Cloud Systems</span>
+                            </div>
+                        </button>
+                    </div>
+
+                    <!-- Simulator Console Screen -->
+                    <div class="simulator-console">
+                        <div class="console-header">
+                            <div class="console-buttons">
+                                <span class="dot red"></span>
+                                <span class="dot yellow"></span>
+                                <span class="dot green"></span>
+                            </div>
+                            <span class="console-title" id="console-title-display">Project_01_AI_Engine.json</span>
+                            <div class="console-status-indicator">
+                                <span class="pulse-indicator"></span>
+                                <span>LIVE DEPLOYMENT</span>
+                            </div>
+                        </div>
+
+                        <div class="console-body">
+                            <!-- Project details pane -->
+                            <div class="console-details">
+                                <h3 id="project-title">Contact Center AI Integration</h3>
+                                <p id="project-desc">Governed the complete lifecycle, architecture definition, and delivery timeline of an advanced generative AI engine. Utilized Gemini Enterprise Playbooks alongside custom-engineered Retrieval-Augmented Generation (RAG) pipelines to streamline response quality.</p>
+                                
+                                <div class="console-metrics-grid">
+                                    <div class="console-metric">
+                                        <span class="metric-value" id="metric-1">+30%</span>
+                                        <span class="metric-label" id="label-1">Call-Handling Capacity</span>
+                                    </div>
+                                    <div class="console-metric">
+                                        <span class="metric-value" id="metric-2">8 Engineers</span>
+                                        <span class="metric-label" id="label-2">Cross-Functional Pod</span>
+                                    </div>
+                                    <div class="console-metric">
+                                        <span class="metric-value" id="metric-3">100%</span>
+                                        <span class="metric-label" id="label-3">SLA Compliance</span>
+                                    </div>
+                                </div>
+
+                                <div class="tech-stack-used">
+                                    <h4>Core Stack Governed:</h4>
+                                    <div class="tech-tags-list" id="project-tech-tags">
+                                        <span>Gemini AI</span>
+                                        <span>RAG Pipelines</span>
+                                        <span>REST APIs</span>
+                                        <span>GCP</span>
+                                        <span>Python</span>
+                                        <span>JSON Schema</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Interactive visual block diagram -->
+                            <div class="console-diagram">
+                                <div class="diagram-canvas" id="diagram-canvas">
+                                    <!-- Diagram blocks will be dynamically generated by JS here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CAREER TIMELINE SECTION -->
+        <section class="timeline-section" id="timeline">
+            <div class="container">
+                <div class="section-title-wrapper reveal">
+                    <span class="section-subtitle">Journey</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <!-- Role 1 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot-wrapper">
+                            <div class="timeline-dot current"></div>
+                        </div>
+                        <div class="timeline-content card active">
+                            <div class="timeline-header">
+                                <div class="role-company">
+                                    <h3>Technical Project Manager III</h3>
+                                    <span class="company">Stacktics Inc.</span>
+                                </div>
+                                <div class="date-location">
+                                    <span class="date">Jan 2023 - Present</span>
+                                    <span class="location">Toronto, ON</span>
+                                </div>
+                            </div>
+                            <p class="timeline-intro-desc">Directing end-to-end cloud and big data product delivery, coordinating strategic roadmaps, setting technical baselines, and scaling multi-disciplinary engineering pods.</p>
+                            
+                            <button class="expand-btn">
+                                <span>Show Accomplishments</span>
+                                <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+
+                            <div class="timeline-details-expanded">
+                                <ul class="accomplishment-list">
+                                    <li>Accomplished delivery of up to <strong>6 concurrent enterprise cloud transformations</strong>, establishing roadmap baselines and facilitating daily Scrum ceremonies.</li>
+                                    <li>Accelerated engineering velocity by <strong>25%</strong> across pods of 10 developers and architects through advanced sprint mapping and customized Jira workflows.</li>
+                                    <li>Automated complex data workflows for Google Marketing Solutions, reducing manual tasks by <strong>30%</strong>.</li>
+                                    <li>Led 4 Google Meridian (Marketing Mix Modeling) product implementations, increasing client portfolio spend efficiency by <strong>8%</strong>.</li>
+                                    <li>Secured milestone project funding valued at <strong>$20M+</strong> by negotiating robust Statements of Work (SOWs) with enterprise partners.</li>
+                                    <li>Governed budgets within a strict <strong>-10% to +10%</strong> variance limit using Work Breakdown Structures (WBS) and RAID log controls.</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span>Cloud Migrations</span>
+                                    <span>Google Meridian</span>
+                                    <span>Agile Scrum</span>
+                                    <span>Jira Workflows</span>
+                                    <span>RAID Logs</span>
+                                    <span>WBS</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Role 2 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot-wrapper">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content card">
+                            <div class="timeline-header">
+                                <div class="role-company">
+                                    <h3>Project Manager II</h3>
+                                    <span class="company">Stacktics Inc.</span>
+                                </div>
+                                <div class="date-location">
+                                    <span class="date">Sept 2022 - Jan 2023</span>
+                                    <span class="location">Toronto, ON</span>
+                                </div>
+                            </div>
+                            <p class="timeline-intro-desc">Managed AI integrations and infrastructure modernization projects, driving real-time tuning and strict compliance metrics.</p>
+                            
+                            <button class="expand-btn">
+                                <span>Show Accomplishments</span>
+                                <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+
+                            <div class="timeline-details-expanded">
+                                <ul class="accomplishment-list">
+                                    <li>Expanded call-handling capacity by <strong>30%</strong> via lifecycle management of a Contact Center AI engine running Gemini Enterprise Playbooks and RAG.</li>
+                                    <li>Boosted ROAS by <strong>80%</strong> for key retail clients by directing deployment of a Google Retail AI Recommendation Engine.</li>
+                                    <li>Managed scope creep across 8 developers by validating REST API specs and complex JSON data schemas.</li>
+                                    <li>Maintained <strong>100% compliance</strong> with corporate SLAs across mid-to-large-scale infrastructure modernization operations.</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span>Gemini AI</span>
+                                    <span>RAG Pipelines</span>
+                                    <span>Retail Recommendation</span>
+                                    <span>JSON Schemas</span>
+                                    <span>SLA Compliance</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Role 3 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot-wrapper">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content card">
+                            <div class="timeline-header">
+                                <div class="role-company">
+                                    <h3>Project Manager I</h3>
+                                    <span class="company">Stacktics Inc.</span>
+                                </div>
+                                <div class="date-location">
+                                    <span class="date">Apr 2021 - Sept 2022</span>
+                                    <span class="location">Toronto, ON</span>
+                                </div>
+                            </div>
+                            <p class="timeline-intro-desc">Governed cross-functional development, DevOps, and analytics workflow integrations from initial business discovery to UAT.</p>
+                            
+                            <button class="expand-btn">
+                                <span>Show Accomplishments</span>
+                                <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+
+                            <div class="timeline-details-expanded">
+                                <ul class="accomplishment-list">
+                                    <li>Governed the integration of a Google Recommendation Engine, generating an <strong>80% increase in ROAS</strong>.</li>
+                                    <li>Coordinated delivery of multi-layer engineering pipelines valued up to <strong>$4M</strong> utilizing Python, GCP BigQuery, and SQL.</li>
+                                    <li>Translated complex business user goals into Business Requirements Documents (BRDs) and developer-ready user stories.</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span>GCP BigQuery</span>
+                                    <span>Python</span>
+                                    <span>SQL Pipelines</span>
+                                    <span>BRDs</span>
+                                    <span>User Stories</span>
+                                    <span>UAT Coordination</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Role 4 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot-wrapper">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content card">
+                            <div class="timeline-header">
+                                <div class="role-company">
+                                    <h3>Data Engineer</h3>
+                                    <span class="company">mHealth Research Lab</span>
+                                </div>
+                                <div class="date-location">
+                                    <span class="date">May 2020 - Dec 2020</span>
+                                    <span class="location">Vancouver, BC</span>
+                                </div>
+                            </div>
+                            <p class="timeline-intro-desc">Built reliable backend data workflows to transform raw scientific research metrics.</p>
+                            
+                            <button class="expand-btn">
+                                <span>Show Accomplishments</span>
+                                <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+
+                            <div class="timeline-details-expanded">
+                                <ul class="accomplishment-list">
+                                    <li>Engineered automated data cleansing and transformation pipelines using Python.</li>
+                                    <li>Improved operational productivity by <strong>90%</strong> while streamlining research data collection.</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span>Python</span>
+                                    <span>Data Engineering</span>
+                                    <span>Data Cleansing</span>
+                                    <span>Automation</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Role 5 -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot-wrapper">
+                            <div class="timeline-dot"></div>
+                        </div>
+                        <div class="timeline-content card">
+                            <div class="timeline-header">
+                                <div class="role-company">
+                                    <h3>Associate Analyst</h3>
+                                    <span class="company">Performics.Convonix (Publicis Media)</span>
+                                </div>
+                                <div class="date-location">
+                                    <span class="date">Dec 2017 - Nov 2018</span>
+                                    <span class="location">Mumbai, India</span>
+                                </div>
+                            </div>
+                            <p class="timeline-intro-desc">Crafted architectural mapping templates and managed custom analytical scripts for enterprise marketing clients.</p>
+                            
+                            <button class="expand-btn">
+                                <span>Show Accomplishments</span>
+                                <svg class="chevron-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                            </button>
+
+                            <div class="timeline-details-expanded">
+                                <ul class="accomplishment-list">
+                                    <li>Formulated Solution Design Documents (SDDs) mapping out data integration and collection streams.</li>
+                                    <li>Deployed complex web analytics architectures via GTM, Tealium, and JavaScript/jQuery.</li>
+                                    <li>Created unified 360-degree customer profiling setups to optimize digital marketing campaigns.</li>
+                                </ul>
+                                <div class="timeline-skills">
+                                    <span>GTM</span>
+                                    <span>Tealium</span>
+                                    <span>JavaScript</span>
+                                    <span>jQuery</span>
+                                    <span>SDDs</span>
+                                    <span>Web Analytics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Older Roles Summary -->
+                    <div class="timeline-item reveal">
+                        <div class="timeline-dot-wrapper">
+                            <div class="timeline-dot legacy"></div>
+                        </div>
+                        <div class="timeline-content card legacy-card">
+                            <h3>Prior Technical Foundations</h3>
+                            <div class="legacy-roles">
+                                <div class="legacy-role">
+                                    <span class="year">2016 - 2017</span>
+                                    <div class="role-desc">
+                                        <strong>Analyst</strong> at C5i. Developed custom Google Analytics data-debugging systems and performed statistical trend analyses.
+                                    </div>
+                                </div>
+                                <div class="legacy-role">
+                                    <span class="year">2014 - 2016</span>
+                                    <div class="role-desc">
+                                        <strong>Web Developer</strong> (PHP/MySQL) at Softagz and Rirev Web Consultants. Designed full-stack applications and optimized SDLC release times.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EDUCATION & CREDENTIALS SECTION -->
+        <section class="education-section">
+            <div class="container">
+                <div class="section-title-wrapper reveal">
+                    <span class="section-subtitle">Credentials</span>
+                    <h2 class="section-title">Education & Certifications</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="education-grid reveal">
+                    <div class="credential-card border-glow-purple">
+                        <div class="cred-badge-icon">🎓</div>
+                        <h3>Bachelor of Engineering</h3>
+                        <p class="cred-major">Information Technology</p>
+                        <p class="cred-institution">Mumbai University</p>
+                    </div>
+
+                    <div class="credential-card border-glow-teal">
+                        <div class="cred-badge-icon">📊</div>
+                        <h3>Post-Degree Diploma</h3>
+                        <p class="cred-major">Data Analytics</p>
+                        <p class="cred-institution">Langara College, Vancouver</p>
+                    </div>
+
+                    <div class="credential-card border-glow-blue">
+                        <div class="cred-badge-icon">🛡️</div>
+                        <h3>PMP Certification</h3>
+                        <p class="cred-major">Project Management Professional</p>
+                        <p class="cred-institution">Project Management Institute (PMI)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="section-title-wrapper reveal">
+                    <span class="section-subtitle">Get in Touch</span>
+                    <h2 class="section-title">Connect With Me</h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <div class="contact-layout reveal">
+                    <!-- Contact Cards -->
+                    <div class="contact-info">
+                        <h3>Let's collaborate on your next cloud or data initiative.</h3>
+                        <p>I am available for technical leadership opportunities, program reviews, or architectural discussions.</p>
+                        
+                        <div class="contact-methods">
+                            <a href="mailto:abhishek.ar.singh@gmail.com" class="method-card">
+                                <div class="method-icon-wrapper mail">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>
+                                </div>
+                                <div class="method-text">
+                                    <span>Email</span>
+                                    <strong>abhishek.ar.singh@gmail.com</strong>
+                                </div>
+                            </a>
+
+                            <a href="tel:236-866-2738" class="method-card">
+                                <div class="method-icon-wrapper phone">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
+                                </div>
+                                <div class="method-text">
+                                    <span>Phone</span>
+                                    <strong>236-866-2738</strong>
+                                </div>
+                            </a>
+
+                            <div class="method-card">
+                                <div class="method-icon-wrapper linkedin">
+                                    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                                </div>
+                                <div class="method-text">
+                                    <span>LinkedIn</span>
+                                    <strong>linkedin.com/in/abhishek-singh</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer-bottom">
+        <div class="container">
+            <div class="footer-layout">
+                <p>&copy; 2026 Abhishek Singh. All rights reserved.</p>
+                <div class="footer-links">
+                    <span>PMP® Registry ID: Pending</span>
+                    <span class="divider">|</span>
+                    <span>Designed with Antigravity</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script file -->
+    <script src="script.js"></script>
+</body>
+</html>
